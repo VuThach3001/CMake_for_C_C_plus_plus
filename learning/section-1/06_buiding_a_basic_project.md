@@ -59,9 +59,31 @@ add_executable(main ./sources/main.c ./sources/other.c)
 **5. Getting Started**
 - The source code for `main.c` is provided and can be used to compute the square root of a number. This file does not need to be edited in this step.
 
-- In the same directory is a CMakeLists.txt file which you will complete. Start with TODO 1 and work through **TODO 3**
+- In the same directory is a `CMakeLists.txt` file which you will complete. Start with **TODO 1** and work through **TODO 3**
 
+**6. Build and Run**
 
+Once **TODO 1** through **TODO 3** have been completed, we are ready to build and run our project! First, run the cmake executable or the **cmake-gui** to configure the project and then build it with your chosen build tool.
+
+For example, from the command line we could navigate to the `./CMakeLists.txt` directory of the CMake source code tree and create a build directory:
+```bash
+mkdir build
+```
+- Next, navigate to that build directory and run `make` to configure the project and generate a native build system
+```bash
+cd build
+cmake ..
+```
+- Then call that build system to actually compile/link the project
+```bash
+cmake --build .
+OR
+make
+```
+- For multi-config generators (e.g. Visual Studio), first navigate to the appropriate subdirectory, for example:
+```bash
+cd Debug
+```
 ---
 
 ### Summary Section (Summary of Notes)
