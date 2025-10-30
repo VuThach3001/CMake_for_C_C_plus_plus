@@ -1,0 +1,4 @@
+/home/thach/Desktop/workspace/CMake_for_C_C_plus_plus/project/07_example/build/CMakeFiles/main.dir
+/home/thach/Desktop/workspace/CMake_for_C_C_plus_plus/project/07_example/build/CMakeFiles/example.dir
+/home/thach/Desktop/workspace/CMake_for_C_C_plus_plus/project/07_example/build/CMakeFiles/edit_cache.dir
+/home/thach/Desktop/workspace/CMake_for_C_C_plus_plus/project/07_example/build/CMakeFiles/rebuild_cache.dir

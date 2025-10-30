@@ -1,0 +1,1 @@
+int returnValidvalue (int num);
